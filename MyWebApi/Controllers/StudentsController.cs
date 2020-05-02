@@ -8,7 +8,7 @@ using MyWebApi.Model;
 
 namespace MyWebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class StudentsController : ControllerBase
     {
